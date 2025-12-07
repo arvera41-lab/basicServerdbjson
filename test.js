@@ -17,3 +17,10 @@ console.log(DB_NAME);
 console.log(PORT);
 console.log(DB_PWD);
 console.log(USERDOMAIN_ROAMINGPROFILE);
+const name = "Aldaír";
+const age = 32;
+const saludo = (name,age) => {
+    console.log(`Hola ${name} con ${age} años`);
+}
+
+saludo(name,age);
